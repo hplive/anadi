@@ -25,3 +25,4 @@ legend("topleft", legend = c("Total","Masculino","Feminino"),lty=c(1:3))
 #alinea b
 dipl.df=ts(Masculino - Feminino, start=1999, frequency = 1)
 ts.plot(dipl.df)
+#----------------------------------------------------------
