@@ -6,3 +6,12 @@
 apl_A=c(11,12,10,15,13,11,12,14)
 apl_B=c(12,9,11,13,9,10,11,12)
 #http://www.academia.edu/8984708/Teste_t_para_amostras_independentes_Teste_t_para_amostras_emparelhadas
+
+#teste independente
+t.test(apl_A,apl_B)
+
+#teste empareelhado
+t.test(apl_A,apl_B,paired = TRUE)
+
+#teste a
+t.test(apl_A)
